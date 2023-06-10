@@ -1,0 +1,64 @@
+.sundori{
+	background-image: url('images/Humayun.jpg');
+	width:500px;
+	height:400px;
+	background-size:500px 400px;
+	background-repeat: no-repeat;
+	background-position:center;
+	margin:200px auto;
+	position:relative;
+	border-radius:50px;
+	transition:2s;
+}
+.sundori:before{
+	background:#833471;
+	width:250px;
+	height:400px;
+	content:'';
+	display:block;
+	clear:both;
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:50px 0 0 50px;
+	transition:2s;
+}
+.sundori:after{
+	background:#006266;
+	width:250px;
+	height:400px;
+	content:'';
+	display:block;
+	clear:both;
+	position:absolute;
+	top:0;
+	right:0;
+	border-radius:0 50px 50px 0;
+	transition:2s;
+}
+.sundori:hover:before{
+	top:0;
+	left:-250px;
+}
+.sundori:hover:after{
+	top:0;
+	right:-250px;
+}
+.sundori:hover{
+	border-radius:0px;
+	transition:2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
